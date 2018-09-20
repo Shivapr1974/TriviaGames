@@ -529,7 +529,38 @@
 					}
 			</style>
 		</a>
-
+		<a class="list__item app js-app"
+				href="http://shivagames.s3-website.us-east-2.amazonaws.com/"
+				data-app="shiva-games"
+				data-tags="game demo">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					Shiva's Games
+				</h2>
+			</div>
+			<style>
+			
+				[data-app='shiva-games'] {
+					color: #8aaedb;
+					background: linear-gradient(45deg, #89c6e1, #8a95d5);
+					}
+				[data-app='shiva-games']::before {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					margin: -23% 0 0 -23%;
+					width: 46%;
+					height: 0;
+					padding-bottom: 46%;
+					border-radius: 50%;
+					background:
+						url(apps/shiva-games.png) no-repeat,
+						#9699d8;
+					box-shadow: 0 0 50px #acffef;
+					content: '';
+					}
+			</style>
+		</a>
 		<a class="list__item app js-app"
 				href="https://www.piiko.com/"
 				data-app="piiko"
